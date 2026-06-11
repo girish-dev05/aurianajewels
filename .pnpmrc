@@ -1,0 +1,19 @@
+# pnpm configuration for Studio Auriana
+
+# Install peer dependencies automatically
+auto-install-peers=true
+
+# Hoist dependencies to avoid duplication
+shamefully-hoist=true
+
+# Use hoisted node-linker for compatibility
+node-linker=hoisted
+
+# Don't run install scripts for security and build reliability
+ignore-scripts=true
+
+# Strict peer dependencies to prevent conflicts
+strict-peer-dependencies=false
+
+# Enable faster lockfile resolution
+lockfile-only=false

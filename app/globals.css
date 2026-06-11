@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+
+:root {
+  /* Luxury color system for Studio Auriana */
+  --background: #faf8f6;
+  --foreground: #2c2c2c;
+  --card: #ffffff;
+  --card-foreground: #2c2c2c;
+  --primary: #6b2c2c;
+  --primary-foreground: #faf8f6;
+  --secondary: #f9b870;
+  --secondary-foreground: #2c2c2c;
+  --accent: #fcc986;
+  --accent-foreground: #2c2c2c;
+  --muted: #e8ddd4;
+  --muted-foreground: #5a5a5a;
+  --border: #e5dcd2;
+  --input: #f9f5f1;
+  --ring: #f9b870;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  html {
+    background-color: #faf8f6;
+  }
+  body {
+    background-color: #faf8f6;
+    color: #2c2c2c;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
